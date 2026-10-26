@@ -1,0 +1,18 @@
+### Build output ###
+target/
+build/
+
+### IDE files ###
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Secrets and logs (never commit) ###
+.env
+*.log
