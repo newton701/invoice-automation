@@ -92,7 +92,7 @@
 | grand_total | decimal | Y | header value as printed | |
 | source_channel | enum | Y | EMAIL, PORTAL, EDI | |
 | lifecycle_status | enum | Y | RECEIVED, EXTRACTED, MATCHED, EXCEPTION, APPROVED, PAYMENT_READY, PAID, BLOCKED, REJECTED | |
-| match_status | enum | Y (**D**) | MATCHED, PRICE_VARIANCE, QUANTITY_MISMATCH, MISSING_RECEIPT, TAX_MISMATCH, VENDOR_BLOCKED, DUPLICATE, ARITHMETIC_ERROR, DATE_ERROR | |
+| match_status | enum | Y (**D**) | MATCHED, PRICE_VARIANCE, QUANTITY_MISMATCH, MISSING_RECEIPT, TAX_MISMATCH, VENDOR_BLOCKED, DUPLICATE, ARITHMETIC_ERROR, DATE_ERROR, NO_PURCHASE_ORDER | |
 
 ## InvoiceLine
 | Field | Type | Req | Allowed / Rule | Unique |
